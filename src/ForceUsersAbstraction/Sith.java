@@ -18,7 +18,7 @@ public class Sith extends ForceUsers {
     public void fuelAnger(int lengthOfTime){}; 
     
    @Override
-      public void praticeUsingForcePowers(int lengthOfTime, ForceAbility forceAbility, String timeInterval ){
+       public void praticeUsingForcePowers(String name, ForceAbility forceAbility, int lengthOfTime, String timeInterval){
     
         System.out.println("You Practice Using " 
             + forceAbility.getName() + " For " + lengthOfTime + " " + timeInterval);

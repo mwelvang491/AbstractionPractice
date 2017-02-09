@@ -10,21 +10,44 @@ package ForceUsersAbstraction;
  * @author mitchell
  */
 public class Jedi extends ForceUsers {
-    //String name;
-   // int midichlorianCount; 
-   // String forceAblities[];
-     
+    String name;
+    int midichlorianCount; 
+    String forceAblities[];
+
+    public Jedi(String name, int midichlorianCount) {
+        this.name = name;
+        this.midichlorianCount = midichlorianCount;
+    }
+    
+    
+    
      public void meditate(int lengthOfTime, String timeInterval){
      
          System.out.println("You Meditate For"+ lengthOfTime + timeInterval);
      };
      
   @Override
-     public void praticeUsingForcePowers(int lengthOfTime, ForceAbility forceAbility, String timeInterval ){
+      public void praticeUsingForcePowers(String name, ForceAbility forceAbility, int lengthOfTime, String timeInterval){
     
-        System.out.println("You Practice Using " 
+        System.out.println( name + " Practiced Using " 
             + forceAbility.getName() + " For " + lengthOfTime + " " + timeInterval);
     };
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getMidichlorianCount() {
+        return midichlorianCount;
+    }
+
+    public void setMidichlorianCount(int midichlorianCount) {
+        this.midichlorianCount = midichlorianCount;
+    }
  
     
 }

@@ -13,10 +13,10 @@ public class Startup {
     
     public static void main(String[] args) {
         
-        Jedi jedi = new Jedi();
+        Jedi jedi = new Jedi("Luke", 15000);
         ForceAbility fAbility = new ForceAbility("Force Push", "You Push");
         
-        jedi.praticeUsingForcePowers(2, fAbility, "Hours");
+        jedi.praticeUsingForcePowers(jedi.getName(), fAbility, 2 ,"Hours");
         
     }
 }
