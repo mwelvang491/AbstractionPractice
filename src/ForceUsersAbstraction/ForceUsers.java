@@ -16,23 +16,29 @@ package ForceUsersAbstraction;
 //      |                 |	
 //    Jedi 	       Sith
 //      |                 |
-// _____|______	        |________________	
+// _____|______	           ________________	
 // |   	    |           |                |
 //Padawon   Knight        Apprentice      Master
 
 
 
 public class ForceUsers {
-    String name;
-    int midichlorianCount; 
-    String forceAblities[];
+   private  String name;
+   private  int midichlorianCount; 
+   ForceAbility forceAbility = new ForceAbility("Force Push", "You Push Using The Force.");
+   
+
+    public void praticeUsingForcePowers(int lengthOfTime, ForceAbility forceAbility ){
     
-    public void praticeUsingForcePowers(){};
+        System.out.println("You Practice Using " 
+            + forceAbility.getName() + " For " + lengthOfTime );
+    };
+ 
     
     public String getName() {
         return name;
     }
-
+    
     public void setName(String name) {
         this.name = name;
     }

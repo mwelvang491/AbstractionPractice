@@ -9,12 +9,8 @@ package ForceUsersAbstraction;
  *
  * @author mitchell
  */
-public class Sith extends ForceUsers {
-   //String name;
-   // int midichlorianCount; 
-   // String forceAblities[];
-    String sithRank;
-    
-    public void fuelAnger(int lengthOfTime){}; 
-   //public void praticeUsingForcePowers(int lengthOfTime){};
+public class Startup {
+    public static void main(String[] args) {
+        
+    }
 }

@@ -14,8 +14,14 @@ public class Jedi extends ForceUsers {
    // int midichlorianCount; 
    // String forceAblities[];
      
-     public void meditate(){};
-   //public void praticeUsingForcePowers(){};
+     public void meditate(int lengthOfTime){
+     
+         System.out.println("You Meditate For"+lengthOfTime);
+     };
+     
+    public void praticeUsingForcePowers(int lengthOfTime){
+        System.out.println("You Pratice Using Force Powers For"+lengthOfTime);
+     };
     
     
 }
