@@ -28,10 +28,10 @@ public class ForceUsers {
    ForceAbility forceAbility = new ForceAbility("Force Push", "You Push Using The Force.");
    
 
-    public void praticeUsingForcePowers(int lengthOfTime, ForceAbility forceAbility ){
+     public void praticeUsingForcePowers(int lengthOfTime, ForceAbility forceAbility, String timeInterval ){
     
         System.out.println("You Practice Using " 
-            + forceAbility.getName() + " For " + lengthOfTime );
+            + forceAbility.getName() + " For " + lengthOfTime + " " + timeInterval);
     };
  
     

@@ -10,7 +10,13 @@ package ForceUsersAbstraction;
  * @author mitchell
  */
 public class Startup {
+    
     public static void main(String[] args) {
+        
+        Jedi jedi = new Jedi();
+        ForceAbility fAbility = new ForceAbility("Force Push", "You Push");
+        
+        jedi.praticeUsingForcePowers(2, fAbility, "Hours");
         
     }
 }
