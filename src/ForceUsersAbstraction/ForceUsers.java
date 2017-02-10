@@ -15,9 +15,10 @@ package ForceUsersAbstraction;
 //       _______|__________
 //      |                 |	
 //    Jedi 	       Sith
+//    Not Implimented Beyond Here
 //      |                 |
 // _____|______	           ________________	
-// |   	    |           |                |
+// |   	    |             |                |
 //Padawon   Knight        Apprentice      Master
 
 
